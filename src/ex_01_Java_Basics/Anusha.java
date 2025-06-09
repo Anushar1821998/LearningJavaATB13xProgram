@@ -1,8 +1,7 @@
 package ex_01_Java_Basics;
-
-public class Lab001_Hello {
+//code executes successfully. But no output
+public class Anusha {
     public static void main(String[] args) {
-        System.out.println("Hellooo");
+
     }
 }
-
