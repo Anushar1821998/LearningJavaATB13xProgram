@@ -1,4 +1,4 @@
-package ex_03_Java_Basics;
+package ex_03_Literals;
 
 public class Task10thJune {
     public static void main(String[] args) {
