@@ -1,9 +1,12 @@
 package Test;
 
-public class Operators {
+public class Challenge_2_Operators {
     public static void main(String[] args) {
+        //Create a Java program that demonstrates various arithmetic and assignment operators.
+        // **Requirements:** - Use +, -, *, /, % operators -
+        // Demonstrate assignment operators (=, +=, -=, *=, /=) - Show the results of each operation
         //10 5
-        //tput:
+        //output:
         //Addition: 15 Subtraction: 5 Multiplication: 50 Division: 2 Modulus: 0
 
         int x=10;

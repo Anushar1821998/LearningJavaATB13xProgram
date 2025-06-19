@@ -1,6 +1,6 @@
 package Test;
 
-public class Test_ID {
+public class Challenge_4_IncrDecr {
     public static void main(String[] args) {
         /*5
 Output:
