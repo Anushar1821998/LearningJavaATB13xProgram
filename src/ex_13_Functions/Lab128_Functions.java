@@ -6,5 +6,7 @@ public class Lab128_Functions {
         // Created by the Java Guys
         int result = Math.min(3,4);
         System.out.println(result);
+
+
     }
 }
