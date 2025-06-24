@@ -2,21 +2,22 @@ package Test;
 
 public class Challenge_5_ExpImp {
     public static void main(String[] args) {
-    //Write a program that demonstrates operator precedence and type casting in Java.
-        // **Requirements:** - Show operator precedence with complex expressions -
-        // Demonstrate implicit and explicit type casting - Print results with explanations
-
-        //implicit type casting int to double
-        int a = 300;
-        double d =  a;
+        //Input:         10 3.5
+        //Output:         Expression result: 23 Implicit casting: 13.5 Explicit casting: 13
+        int a = 10;
+        float d =  3.5f;
         System.out.println("integer value is:" + a);
-        System.out.println("Double value is:" + d);
+        System.out.println("float value is:" + d);
 
-        //Explicit type casting from long to integer
-        long numb = 9836546635l;
-        int num = (int)numb;
-        System.out.println("Float value of phone number is:" + numb);
-        System.out.println("casted value of number from float to int is:" + num);
+        //Explicit type casting from float to integer
+
+        int result = a+(int)d;
+        System.out.println("Result of explicit casting for addition is" + " " + result);
+
+        //implicit casting
+
+        float sum = a + d;
+        System.out.println("Result of implicit casting for addition is" + " " + sum);
 
      }
 }
