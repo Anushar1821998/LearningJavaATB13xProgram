@@ -9,6 +9,7 @@ public class Interview_Vowels {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name");
+        
         String name = scanner.next();
 
         String Name = name.toLowerCase();

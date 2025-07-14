@@ -12,38 +12,20 @@ public class InterviewCoding {
         //  s1 == s1_reverse
         // G
 
-
-         string_reverse();
-
-    }
-
-    public static void  string_reverse() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the String");
         String string_value = scanner.next();
 
         System.out.println("String value entered is:" + " " + string_value);
 
-        String reverse = " ";
 
-        //madam
-        for (int i = 0; i < string_value.length(); i++) {
-
-            reverse = string_value.charAt(i) + reverse;
-
-
-        }
-        System.out.println("Reversed string value is:" + " " + reverse);
+        String reverse = string_reverse(string_value);
 
         if (reverse.equals(string_value)) {
 
             System.out.println(reverse + " " + "is a Palindrome");
 
-        }
-
-        else
-
-        {
+        } else {
             System.out.println(string_value + " " + "is not Palindrome");
 
 
@@ -52,5 +34,21 @@ public class InterviewCoding {
 
     }
 
+    public static String string_reverse(String input) {
 
+        String reverse = " ";
+
+        //madam
+        for (int i = 0; i < input.length(); i++) {
+
+            reverse = input.charAt(i) + reverse;
+
+
+        }
+        System.out.println("Reversed string value is:" + " " + reverse);
+        return reverse;
+
+    }
 }
+
+
